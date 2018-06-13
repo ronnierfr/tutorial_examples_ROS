@@ -12,7 +12,7 @@ Esse pacote ROS tem por finalidade desenvolver um controle Fuzzy para que o Rob�
 
 É necessário instalar o pacote skfuzzy 
 
-  $ sudo pip install scikit-fuzzy 
+> sudo pip install scikit-fuzzy 
 
 # Contribuições 
 
@@ -25,11 +25,11 @@ Esse pacote ROS tem por finalidade desenvolver um controle Fuzzy para que o Rob�
 
 Para rodar o código, execute a cena e então rode o comando: 
 
-  $ roslaunch example_ROS_Python_Vrep_Fuzzy start.launch  
+> roslaunch example_ROS_Python_Vrep_Fuzzy start.launch  
 
 Ou 
 
-  $ rosrun example_ROS_Python_Vrep_Fuzzy init.py 
+> rosrun example_ROS_Python_Vrep_Fuzzy init.py 
 
 Caso nenhum dos dois funcionar, lembre-se de dar permissão de execução para o arquivo Python.  
 
